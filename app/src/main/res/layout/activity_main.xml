@@ -12,7 +12,35 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/kettleicon" />
+        android:src="@drawable/kettleicon"
+
+        />
+
+    <ImageView
+        android:layout_below="@+id/imgKettle"
+        android:id="@+id/imgSnowhouse"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/snowhouseicon"
+        />
+
+    <ImageView
+        android:layout_toRightOf="@+id/imgKettle"
+        android:id="@+id/imgDeer"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/deericon" />
+
+    <ImageView
+        android:layout_below="@+id/imgDeer"
+        android:layout_toRightOf="@id/imgSnowhouse"
+        android:id="@+id/imgHolidayDecor"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/hollidaydecor" />
 
 
 </RelativeLayout>
