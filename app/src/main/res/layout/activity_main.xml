@@ -40,7 +40,7 @@
         android:layout_toEndOf="@id/imgSantaHat"
         android:layout_below="@id/imgSantaHat"
         android:scaleType="centerCrop"
-        android:src="@drawable/hollidaydecor"
+        android:src="@drawable/hollidaydecor"/>
 
     <ImageView
         android:id="@+id/imgSantaHat"
