@@ -39,7 +39,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/companyName"
         android:indeterminate="true"
-        android:indeterminateTint="#892238"
+        app:indicatorColor="#892238"
         />
 
 
