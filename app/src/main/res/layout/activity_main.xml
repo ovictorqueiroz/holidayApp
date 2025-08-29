@@ -7,40 +7,49 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
     <ImageView
         android:id="@+id/imgKettle"
         android:layout_width="150dp"
         android:layout_height="150dp"
+        android:layout_above="@id/imgSantaHat"
         android:scaleType="centerCrop"
-        android:src="@drawable/kettleicon"
-
-        />
+        android:src="@drawable/kettleicon" />
 
     <ImageView
-        android:layout_below="@+id/imgKettle"
         android:id="@+id/imgSnowhouse"
         android:layout_width="150dp"
         android:layout_height="150dp"
+        android:layout_alignBottom="@id/imgHolidayDecor"
         android:scaleType="centerCrop"
-        android:src="@drawable/snowhouseicon"
-        />
+        android:src="@drawable/snowhouseicon" />
 
     <ImageView
-        android:layout_toRightOf="@+id/imgKettle"
         android:id="@+id/imgDeer"
         android:layout_width="150dp"
         android:layout_height="150dp"
+        android:layout_toEndOf="@id/imgSantaHat"
+        android:layout_above="@id/imgSantaHat"
         android:scaleType="centerCrop"
         android:src="@drawable/deericon" />
 
     <ImageView
-        android:layout_below="@+id/imgDeer"
-        android:layout_toRightOf="@id/imgSnowhouse"
         android:id="@+id/imgHolidayDecor"
         android:layout_width="150dp"
         android:layout_height="150dp"
+        android:layout_toEndOf="@id/imgSantaHat"
+        android:layout_below="@id/imgSantaHat"
         android:scaleType="centerCrop"
-        android:src="@drawable/hollidaydecor" />
+        android:src="@drawable/hollidaydecor"
+
+    <ImageView
+        android:id="@+id/imgSantaHat"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/santahat" />
+
 
 
 </RelativeLayout>
